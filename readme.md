@@ -1,37 +1,33 @@
-# _{Application Name}_
+# _{Ping-Pong}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{This application takes a number input from the user and returns new values based on whether it is evenly divided by 3, 5, or both.}, {10/28/2016}_
 
-#### By _**{List of contributors}**_
+#### By _**{Andrew Accuardi}**_
 
-## Description
+## Specifications
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. This application is called Ping-Pong. The purpose of this application is to showcase my JavaScript skills up to this point in my intro course at Epicodus. This webapp can:}_
+  1. _Take an inputted number from the user._
+  2. _Create an unordered list up to that number._
+    * _Inputted number is 15._
+    * _Creates array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]_
+  3. _Replace numbers in that list that are divisible by 3 with the string, "ping"._
+    * _[1, 2, "ping",..]_
+  4. _Replace numbers in that list that are divisible by 5 with the string, "pong"._
+    * _[1, 2, "ping", 4, "pong", ..]_
+  5. _Replace numbers in that list that are divisible by 15 with the string, "pingpong"._
+    * _[..11, "ping", 13, 14, "pingpong"]_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+* _[Go here](https://medicciardi.github.io/ping-pong)_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{This webapp uses JavaScript, jQuery, bootstrap, CSS, HTML5}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) 2016 **_Andrew Accuardi_**
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+This code is licensed under the MIT license.
